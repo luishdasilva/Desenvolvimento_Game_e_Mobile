@@ -1,0 +1,12 @@
+#application.kv
+Grid:
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+
+        Label:
+            text: "Bem vindo, desenhos UP"
+
+        Button:
+            text:"sair"
+            on_press: app.btn()
